@@ -6,7 +6,7 @@ Suppose Alice wants to send a message $m$ to Bob, but also wants Bob to wait unt
 
 The Pederson commitment scheme can be formalized (with some intuition) as follows:
 * Alice chooses a (public) multiplicative cyclic group $Z_n^*$ for some integer $n$ in which the Pederson commitment scheme will be performed.
-    * Since $Z_n^*$ needs to be cyclic, $n$ is typically prime (i.e., $Z_p^*$).
+    * Since  $Z_n^* $ needs to be cyclic, $n$ is typically prime (i.e., $Z_p^*$).
 * Alice considers 2 generators of $Z_p^*$, namely $g_1$ and $g_2$.
 * Alice also considers 2 secret elements of $Z_p^*$, namely $s_1$ and $s_2$.
 * Alice computes the commit $c = g_1^{s_1} * g_2^{(s_1*m)}$, where $m$ is Alice's message. 
