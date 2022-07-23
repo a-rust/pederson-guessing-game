@@ -2,8 +2,8 @@
 This is an implementation of the Pederson commitment scheme applied to a simple guessing game.
 
 ## Formalizing the Pederson commitment scheme
-* Alice chooses a (public) multiplicative cyclic group $Z_n^*$ for some integer $n$.
-    * Since  $Z_n^* $ needs to be cyclic (with at least 2 generators), $n$ is typically prime (i.e., $Z_p^*$).
+* Alice chooses a (public) multiplicative cyclic group with $p$ for some (large prime) (e.g., $Z_p^*$).
+   * Large prime because the group needs to have at least 2 generators
 * Alice considers 2 generators of $Z_p^*$, namely $g_1$ and $g_2$.
 * Alice also considers 2 secret elements of $Z_p^*$, namely $s_1$ and $s_2$.
    * Note that one secret key is enough to transation into a discrete logarithm setting; two keys makes finding $m$ even more difficult.
